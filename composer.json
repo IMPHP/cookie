@@ -1,0 +1,24 @@
+{
+    "name": "imphp/cookie",
+    "license": "MIT",
+    "description": "A cookie library that works with imphp/http",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Daniel Bergløv",
+            "email": "d.bergloev@mailbox.com"
+        }
+    ],
+
+    "require": {
+        "imphp/base": "~1.1",
+        "imphp/http": "~1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "im\\": "src/"
+        }
+    }
+}
