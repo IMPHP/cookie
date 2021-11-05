@@ -9,6 +9,18 @@ You can view the [Full Documentation](docs/cookie.md) to lean more about what th
 
 ### Installation
 
+__Using .phar library__
+
+```sh
+wget https://github.com/IMPHP/cookie/releases/download/<version>/imphp-cookie.phar
+```
+
+```php
+require "imphp-cookie.phar";
+
+...
+```
+
 __Clone via git__
 
 ```sh
